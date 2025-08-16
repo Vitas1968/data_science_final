@@ -1,0 +1,30 @@
+.DS_Store
+13_api/lesson_git/.ipynb_checkpoints/*
+.ipynb_checkpoints/*
+# Anaconda project metadata
+anaconda_projects/
+*.code-workspace
+.idea/
+venv/
+# Airflow config
+airflow.cfg
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environment
+.venv/
+env/
+
+# Data
+/data/
+*.csv
+*.xlsx
+
+# Jupyter
+.ipynb_checkpoints/
