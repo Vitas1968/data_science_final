@@ -1,0 +1,7 @@
+# Boosting & табличные модели
+lightgbm
+xgboost
+catboost
+
+# Работа с дисбалансом классов
+imbalanced-learn
