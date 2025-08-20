@@ -5,3 +5,5 @@ catboost
 
 # Работа с дисбалансом классов
 imbalanced-learn
+
+pyarrow>=15.0.0
