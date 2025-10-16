@@ -1,0 +1,25 @@
+# VCS / IDE
+.git
+.gitignore
+.idea
+.vscode
+
+# Python/venv
+.venv
+__pycache__/
+*.pyc
+
+# Jupyter / notebooks cache
+.jupyter*
+.ipynb_checkpoints/
+notebooks/catboost_info/
+
+# Data (крупные сырые)
+data/raw/
+data/predictions/
+
+# OS / misc
+*.log
+*.bat
+.DS_Store
+Thumbs.db

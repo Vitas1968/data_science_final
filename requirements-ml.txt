@@ -2,6 +2,10 @@
 lightgbm
 xgboost
 catboost
+fastapi
+uvicorn
+dill
+
 
 # Работа с дисбалансом классов
 imbalanced-learn
