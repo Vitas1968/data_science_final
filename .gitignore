@@ -1,42 +1,80 @@
-# Системные файлы
+# ======================
+# СИСТЕМНЫЕ ФАЙЛЫ
+# ======================
 .DS_Store
+Thumbs.db
 *.code-workspace
 
-# IDE
+# ======================
+# IDE / EDITORS
+# ======================
 .idea/
 .vscode/
 
-# Jupyter
-.ipynb_checkpoints/
-
-# Python
+# ======================
+# PYTHON / JUPYTER
+# ======================
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+.ipynb_checkpoints/
+notebooks/*_backup.ipynb
 
-# Виртуальные окружения
+# ======================
+# ВИРТУАЛЬНЫЕ ОКРУЖЕНИЯ
+# ======================
 .venv/
 venv/
 env/
 
-# Airflow config
+# ======================
+# AIRFLOW / TEMP CONFIGS
+# ======================
 airflow.cfg
 
-# Данные
-data/raw/*
-data/processed/*
+# ======================
+# DATA
+# ======================
+data/raw/
+data/predictions/
 !data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/.gitkeep
+!data/predictions/.gitkeep
 
-# Модели
+# Разрешаем финальные обработанные датасеты
+!data/processed/.gitkeep
+!data/processed/sessions_with_target.parquet
+
+# ======================
+# MODELS
+# ======================
 models/*
 !models/.gitkeep
+!models/best_model_full.pkl
+!models/best_model_full_meta.json
 
-# Файлы форматов данных
-*.csv
-*.xlsx
-*.pkl
-*.parquet
-rquet
+# ======================
+# CATBOOST / TRAIN LOGS
+# ======================
+notebooks/catboost_info/
+
+
+# ======================
+# DOCKER ARTIFACTS
+# ======================
+*.tar
+*.pid
+*.log
+
+# ======================
+# JUPYTER RUNTIME / CONFIG
+# ======================
+.jupyter/
+
+
+# ======================
+# OS / TEMP / BAT FILES
+# ======================
+*.bat
+*.tmp
+*.bak

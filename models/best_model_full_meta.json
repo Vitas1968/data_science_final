@@ -1,0 +1,23 @@
+{
+  "best_name": "CatBoost (spw)",
+  "chosen_threshold": 0.54,
+  "roc_auc_test": 0.7630257883887337,
+  "train_feature_names": [
+    "visit_number",
+    "utm_source",
+    "utm_medium",
+    "utm_campaign",
+    "utm_adcontent",
+    "utm_keyword",
+    "device_category",
+    "device_os",
+    "device_brand",
+    "device_model",
+    "device_screen_resolution",
+    "device_browser",
+    "geo_country",
+    "geo_city",
+    "visit_weekday",
+    "visit_month"
+  ]
+}
